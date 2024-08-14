@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel = 'stylesheet' href="./styles/style.css">
+</head>
+<body>
+    <main class = "apresentacao">
+        <section class = "apresentacao__conteudo">
+                <h1 class = "apresentacao__conteudo__titulo">Decodificador de texto</h1>
+            <textarea class="texto"  rows="18" cols="41" placeholder="Digite aqui seu texto"></textarea>
+            <div class="informacao">
+            <h6>Todos os caracteres especiais serão removidos, letras com acentuação serão retornadas para sua versão sem acento.</h6>
+            </div>
+
+
+            <div class = "botoes">
+                <button class = "botao__cript" onclick="btnCriptografar()">Criptografar</button>
+                <button class = "botao__descrip" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="caixinha">
+            <textarea class="mensagem" rows="18" cols="40" placeholder="nenhuma mensagem encontrada"></textarea>
+            <button id = "botao__copiar"
+             onclick="btnCopiar()">Copiar</button>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Letícia Rodrigues Ramos</p>
+        <p>Acesse minhas redes socias:</p>
+        <a class = "links" href="https://github.com/Leticiarramos">Github</a>
+        <a class = "links" href="https://instagram.com/leth_rramos">Instagram</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
